@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700|
+Orbitron);
+
+
+body{
+    background:black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+#Calculator {
+    background:purple;
+    border-radius: 15px;
+    padding: 15px;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#screen-container {
+    background: ;
+    border-radius: 10px;
+    padding:20px;
+}
+
+#screen {
+    background:lavenderblush;
+    border: none;
+    font-family: "Orbitron",sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    height: 45px;
+    overflow: hidden;
+    width: 269px;
+    z-index:1;
+}
+
+#zero{
+    width:220px;
+}
+
+#clear {
+background:papayawhip;
+width: 147px; ;
+}
+
+#clear:active{
+    background-color:grey;
+
+}
+#equals {
+    height: 89px;
+
+}
+
+#buttons-container{
+    padding: 30px 0 0 15px;
+}
+
+.l-row{
+   position: absolute;
+   top: 354px;
+}
+
+.buttons{
+    overflow: hidden;
+}
+
+.buttons span{
+    background:lightblue;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 0px 1px 0px #5E626D, 0px 5px 0px 0px #45637f;
+    cursor: pointer;
+    float: left;
+    font-family: "Oswald",sans-serif;
+    width: 70px;
+    height: 40px;
+    margin: 0 7px 11px 0;
+    line-height: 40px;
+    text-align: center;
+
+}
+.button span:active{
+    background-color: aqua;
+    top: 3px;
+    box-shadow: inset 0px 1px 0px #5E626D, 0px 2px 0px 0px #45637f; ;
+}
+
+.operator{
+    font-size: 1.3em;
+
+}
